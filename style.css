@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    font-family: "Kaushan Script", cursive;
+    font-family: "Montserrat", sans-serif;
+
+
+
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.full {
+    width: 100%;
+}
+
+.src {
+    width: 100%;
+    position: relative;
+    background: #F0F5FF;
+    padding: 7.5px 0;
+    border-radius: 8px;
+}
+
+.src input {
+    width: 100%;
+    background: #F0F5FF;
+    padding: 0 40px;
+    border: none;
+}
+
+.src button {
+    position: absolute;
+    background: #F0F5FF;
+    border: none;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 10px;
+}
+
+.links {
+    justify-content: space-between;
+    display: flex;
+}
+
+.links a {
+    color: #000;
+}
+
+.login:hover {
+    background: #042fef;
+    color: #fff;
+    transition: all ease-in-out 0.2;
+}
+
+.login:hover a {
+    color: #fff;
+}
+
+.login {
+    padding: 9px 7px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.login:hover .rot {
+    transform: rotate(180deg);
+    transition: all ease-in-out 0.3s;
+}
+
+.login_con {
+    position: absolute;
+    border: 1px solid black;
+    bottom: -197px;
+    width: 300px;
+    visibility: hidden;
+}
+
+.login:hover .login_con {
+    visibility: visible;
+    transition: all linear 0.2s;
+    z-index: 999;
+    background: white;
+}
+
+.login_con ul li a {
+    color: #000 !important;
+}
+
+.link2 {
+    position: relative;
+}
+
+.login_con1 {
+    position: absolute;
+    bottom: -165px;
+    left: -90px;
+    visibility: hidden;
+    background: #fff;
+    padding: 10px;
+}
+
+.link2:hover .login_con1 {
+    visibility: visible;
+    z-index: 999;
+}
+
+.other ul li a {
+    padding: 0 10px;
+}
+
+.gro_item1 a {
+    color: #000;
+}
+
+.gro_item1 {
+    position: relative;
+    display: inline-block;
+}
+
+.gro_item1 img {
+    width: 100%;
+}
+
+.gro_item1 ul {
+    position: absolute;
+    left: 0;
+    background: #ffffff;
+    visibility: hidden;
+    width: 100%;
+    padding: 10px;
+    z-index: 9999;
+}
+
+.gro_item1:hover ul {
+    visibility: visible;
+}
+
+.gro_item1 ul li a {
+    color: #000;
+}
+
+.owl-carousel .owl-stage {
+    overflow: visible !important;
+
+}
+
+.owl-carousel .owl-stage-outer {
+    overflow: visible
+}
+
+.item a {
+    color: #000;
+}
+
+.item {
+    text-align: center;
+}
+
+.banner a div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    height: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner a div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 250px;
+    }
+
+}
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+    background: white;
+    border: none;
+    padding: 20px 10px;
+}
+
+.slick-prev {
+    left: 15px;
+}
+
+.slick-next {
+    right: 15px;
+}
+
+.slick-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    display: flex;
+    transform: translateX(-50%);
+}
+
+.slick-dots li button {
+    display: none;
+}
+
+.slick-dots li {
+    height: 10px;
+    width: 10px;
+    background: #bcbcbc;
+    margin: 0 5px;
+    border-radius: 50%;
+
+}
+
+.slick-dots li.slick-active {
+    background: #ffffff;
+    height: 10px;
+    width: 16px;
+    border-radius: 8px;
+    transition: all ease-in-out 0.4s;
+    transform: translateY(-10px);
+}
+
+.item_con .d-block {
+    font-size: 14px;
+}
+
+.col-md-2:hover .item_img img {
+    transform: scale(1.05);
+    overflow: hidden;
+}
+
+.here {
+    background: #042fef;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+.here i {
+    line-height: 10px;
+    transform: translateX(50%);
+}
+
+.item2img:hover img {
+    transform: scale(1.05);
+}
+
+.src ul {
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    display: none;
+}
+
+.item2img img {
+    width: 100%;
+}
+
+.item_img img {
+    width: 100%;
+}
